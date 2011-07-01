@@ -11,7 +11,7 @@ var Logger = function () {
 		this.domElement.appendChild( document.createTextNode( msg ) );
 		this.domElement.appendChild( document.createElement( 'br' ) );
 
-	},
+	};
 
 	this.clear = function () {
 
@@ -21,6 +21,6 @@ var Logger = function () {
 
 		}
 
-	}
+	};
 
-}
+};
