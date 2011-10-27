@@ -5,12 +5,14 @@ logger.js
 
 ### Usage ###
 
-	<script src="Logger.js"></script>
-	<script>
+```html
+<script src="Logger.js"></script>
+<script>
 
-		var logger = new Logger();
-		document.body.appendChild( logger.domElement );
+	var logger = new Logger();
+	document.body.appendChild( logger.domElement );
 
-		logger.log( 'foo' );
+	logger.log( 'foo' );
 
-	</script>
+</script>
+```
